@@ -1,9 +1,8 @@
-<p align="center"> 
+<table align="center"><tr><td align="center" width="9999">
+<img src="https://github.com/EdgardoPinto-Escalier/nordic-outdoors/blob/master/img/logo-blue.png?raw=true" alt="Nord Outdoors Logo" />
+
 # Nordic Outdoors 
-</p>
 
-<p align="center"> <img src="https://github.com/EdgardoPinto-Escalier/nordic-outdoors/blob/master/img/logo-blue.png?raw=true" alt="Nord Outdoors Logo" /> </p>
 
-<p align="center"> 
 Advance CSS/SASS project for a travel agency offering adventure packages around Scandinavia
-</p>
+</td></tr></table>
