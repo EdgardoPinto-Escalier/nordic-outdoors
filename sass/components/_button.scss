@@ -34,6 +34,15 @@
       }
     }
 
+    &.btn--blue {
+      background-color: $color-dark-blue;
+      color: $color-white;
+
+      &::after {
+        background-color: $color-dark-blue;
+      }
+    }
+
     &::after {
       content: '';
       display: inline-block;

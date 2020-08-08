@@ -102,6 +102,12 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-xl {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -125,6 +131,11 @@ body {
     color: #777777; }
     .btn:link.btn--white::after, .btn:visited.btn--white::after {
       background-color: #ffffff; }
+  .btn:link.btn--blue, .btn:visited.btn--blue {
+    background-color: #4c96d7;
+    color: #ffffff; }
+    .btn:link.btn--blue::after, .btn:visited.btn--blue::after {
+      background-color: #4c96d7; }
   .btn:link::after, .btn:visited::after {
     content: '';
     display: inline-block;
@@ -164,9 +175,9 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  height: 57rem; }
   .card__side {
-    height: 52rem;
+    height: 57rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -196,7 +207,9 @@ body {
     height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #82b1ff, #2962ff), url(../img/nord-5.jpg); }
     .card__picture--2 {
@@ -219,6 +232,10 @@ body {
     box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(130, 177, 255, 0.85), rgba(41, 98, 255, 0.85)); }
+    .card__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(179, 157, 219, 0.85), rgba(98, 0, 234, 0.85)); }
+    .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(159, 168, 218, 0.85), rgba(13, 71, 161, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -231,6 +248,23 @@ body {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eeeeee; }
+  .card__call-to-action {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: #ffffff; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 300; }
 
 .composition {
   position: relative; }
@@ -342,5 +376,5 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -11rem; }
