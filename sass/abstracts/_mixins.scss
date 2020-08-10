@@ -12,3 +12,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+// MEDIA QUERY MANAGER (BREAKPOINTS)
+/*----------------------------------------------------------------
+
+0    -   600px    Phones
+600  -   900px    Tablet Portrait Mode
+900  -   1200px   Tablet Landscape Mode
+1200 -   1800px   Normal styles apply
+1800+ :  Big Desktop
+
+*/
+
+// BREAKPOINT ARGUMENT CHOICES
+/*------------------------------
+
+- Phones
+- Tablets Porttrait Mode
+- Tablets Landscape mode
+- Big Desktops
+
+1em = 16px
+*/
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == phones {
+        @media (max-width: 37.5em) { @content }; // 600px
+    }
+    @if $breakpoint == tablets-portrait-mode {   // 900px
+        @media (max-width: 56.25em) { @content };
+    }
+    @if $breakpoint == tablets-landscape-mode {  // 1200px
+        @media (max-width: 75em) { @content };
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };  //1800px
+    }
+}
