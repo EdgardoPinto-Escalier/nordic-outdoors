@@ -9,6 +9,7 @@ body {
 .main-title {
   color: $color-white;
   text-transform: uppercase;
+
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
@@ -17,6 +18,7 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: .8rem;
+
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -48,7 +50,7 @@ body {
   background-image: linear-gradient(to right, $color-light-blue, $color-dark-blue);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
   transition: all .2s;
 
   @include responsive(tablets-portrait-mode) {

@@ -2,6 +2,10 @@
   background-color: $color-light-grey;
   padding: 25rem 0;
   margin-top: -20vh;
+
+  @include responsive(tablets-portrait-mode) {
+    padding: 20rem 0;
+  }
 }
 
 .section-features {
@@ -19,22 +23,39 @@
   & > * {
     transform: skewY(7deg);
   }
+
+  @include responsive(tablets-portrait-mode) {
+    padding: 10rem 0;
+  }
+
 }
 
 .section-tours {
   background-color: $color-light-grey;
   padding: 25rem 0 15rem 0;
   margin-top: -11rem;
+
+  @include responsive(tablets-portrait-mode) {
+    padding: 20rem 0 10rem 0;
+  }
 }
 
 .section-reviews {
   padding: 15rem 0;
   position: relative;
+
+  @include responsive(tablets-portrait-mode) {
+    padding: 10rem 0;
+  }
 }
 
 .section-booking {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, $color-light-blue, $color-dark-blue);
+
+  @include responsive(tablets-portrait-mode) {
+    padding: 10rem 0;
+  }
 }
 
 .booking {
