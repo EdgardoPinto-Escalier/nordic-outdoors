@@ -4,13 +4,22 @@
     to right bottom,
     rgba($color-light-blue, 0.8), 
     rgba($color-dark-blue, 0.8)), 
-  url(../img/main-hero.jpeg);
+  url(https://i.ibb.co/sRQzB9v/main-hero-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-light-blue, 0.8), 
+        rgba($color-dark-blue, 0.8)), 
+      url(https://i.ibb.co/6wNqhzL/main-hero.jpg);
+  }
+
 
   @include responsive(phones) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);

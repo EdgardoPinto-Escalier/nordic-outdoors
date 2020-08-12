@@ -263,11 +263,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #82b1ff, #2962ff), url(../img/nord-5.jpg); }
+      background-image: linear-gradient(to right bottom, #82b1ff, #2962ff), url(https://i.ibb.co/XWnvMMv/nord-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #b39ddb, #6200ea), url(../img/nord-6.jpg); }
+      background-image: linear-gradient(to right bottom, #b39ddb, #6200ea), url(https://i.ibb.co/T13pKNy/nord-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #9fa8da, #0d47a1), url(../img/nord-7.jpg); }
+      background-image: linear-gradient(to right bottom, #9fa8da, #0d47a1), url(https://i.ibb.co/GPrb7b7/nord-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -688,12 +688,15 @@ body {
 
 .page-header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(141, 202, 255, 0.8), rgba(76, 150, 215, 0.8)), url(../img/main-hero.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(141, 202, 255, 0.8), rgba(76, 150, 215, 0.8)), url(https://i.ibb.co/sRQzB9v/main-hero-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    .page-header {
+      background-image: linear-gradient(to right bottom, rgba(141, 202, 255, 0.8), rgba(76, 150, 215, 0.8)), url(https://i.ibb.co/6wNqhzL/main-hero.jpg); } }
   @media (max-width: 37.5em) {
     .page-header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -900,7 +903,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(141, 202, 255, 0.8), rgba(76, 150, 215, 0.8)), url(../img/nord-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(141, 202, 255, 0.8), rgba(76, 150, 215, 0.8)), url(https://i.ibb.co/HT3ShSs/nord-4.jpg);
   background-size: cover;
   background-position: center;
   transform: skewY(-7deg);
@@ -934,17 +937,17 @@ body {
       padding: 10rem 0; } }
 
 .booking {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nord-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(https://i.ibb.co/9pFFVvm/nord-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
   @media (max-width: 75em) {
     .booking {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nord-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(https://i.ibb.co/9pFFVvm/nord-10.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .booking {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nord-10.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(https://i.ibb.co/9pFFVvm/nord-10.jpg); } }
   .booking__form {
     width: 50%;
     padding: 6rem; }
